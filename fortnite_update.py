@@ -29,7 +29,7 @@ os.system('cls||clear')
 intro = Fore.LIGHTRED_EX + """
  -----------------------------------------------------
  ★ Thank you for using this project
- ★ Need help: https://discord.gg/mpKUGcWgTT
+ ★ Need help: https://discord.gg/vazB8YYAWG
   -----------------------------------------------------
 """
 
@@ -94,7 +94,7 @@ with open('config.json') as f:
     try:
         data = json.load(f)
     except json.decoder.JSONDecodeError as e:
-        print(Fore.RED + ' [ERROR] ' + Fore.RESET + "There was an error in one of the bot's files! (config.json). If you have problems trying to fix it, join the discord support server for help - https://discord.gg/mpKUGcWgTT")
+        print(Fore.RED + ' [ERROR] ' + Fore.RESET + "There was an error in one of the bot's files! (config.json). If you have problems trying to fix it, join the discord support server for help - https://discord.gg/vazB8YYAWG")
         print(Fore.LIGHTRED_EX + f'\n {e}')
         exit(1)
 
@@ -102,7 +102,7 @@ with open('info.json') as f:
     try:
         info = json.load(f)
     except json.decoder.JSONDecodeError as e:
-        print(Fore.RED + ' [ERROR] ' + Fore.RESET + "There was an error in one of the bot's files! (info.json). If you have problems trying to fix it, join the discord support server for help - https://discord.gg/mpKUGcWgTT")
+        print(Fore.RED + ' [ERROR] ' + Fore.RESET + "There was an error in one of the bot's files! (info.json). If you have problems trying to fix it, join the discord support server for help - https://discord.gg/vazB8YYAWG")
         print(Fore.LIGHTRED_EX + f'\n {e}')
         exit(1)
 

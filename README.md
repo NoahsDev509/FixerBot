@@ -1,7 +1,9 @@
 # Functions
 
 ✅ Bot works
+
 ✅ Prefix works
+
 ✅ Commands works
 
 
